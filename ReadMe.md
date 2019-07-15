@@ -5,6 +5,7 @@ Heading<br>
 Paragraph<br>
 List<br>
 Anchor<br>
+Path (Absolute/Relative) <br>
 
 ## Task
 link: https://www.lipsum.com/
