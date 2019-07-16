@@ -1,4 +1,41 @@
 # HTML Training
+## Day 2
+Some Html5 new Elements <br>
+Table <br>
+Form elements <br>
+  `<input  type="text">`<br>
+`<input  type="search">`<br>
+`<input  type="button">`<br>
+`<input  type="checkbox">`<br>
+`<input  type="color">`<br>
+`<input  type="date">`<br>
+`<input  type="datetime-local">`<br>
+`<input  type="email">`<br>
+`<input  type="file">`<br>
+`<input  type="hidden">`<br>
+`<input  type="image">`<br>
+`<input  type="month">`<br>
+`<input  type="number">`<br>
+`<input  type="password">`<br>
+`<input  type="radio">`<br>
+`<input  type="range">`<br>
+`<input  type="reset">`<br>
+`<input  type="submit">`<br>
+`<input  type="tel">`<br>
+`<input  type="time">`<br>
+`<input  type="url">`<br>
+`<input  type="week"> `<br>
+`<input type="text" list="direction-list" class="form-control" />
+        <datalist id="direction-list">
+          <option value="North"></option>
+          <option value="South"></option>
+          <option value="East"></option>
+          <option value="West"></option>
+        </datalist>`<br>
+Tag ang Attribute <br>
+Block element and inline element<br>
+
+
 ## Day 1: 
 Introduction <br>
 Heading<br>
