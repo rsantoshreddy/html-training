@@ -1,5 +1,5 @@
 # HTML Training
-## Day 2
+# Day 2
 Some Html5 new Elements <br>
 Table <br>
 Form elements <br>
@@ -35,8 +35,12 @@ Form elements <br>
 Tag ang Attribute <br>
 Block element and inline element<br>
 
+## Task Day 2
+Create below mock using input elements
+[day2Task]: https://github.com/rsantoshreddy/html-training/day2/images/task2.png "nonStyleComponentBuild image"
 
-## Day 1: 
+
+# Day 1: 
 Introduction <br>
 Heading<br>
 Paragraph<br>
