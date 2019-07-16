@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h2>Search</h2>
+
+      <h2>Month</h2>
+      <input type="month" />
+      <h2>Week</h2>
+      <input type="week" />
+      <h2>Time</h2>
+      <input type="time" />
+      <h2>local date</h2>
+      <input type="datetime-local" class="form-control" value="2018-06-23T12:06" />
+      <h2>password</h2>
+      <input type="password" />
+      <input class="form-control" type="search" placeholder="Search Input" />
+
+      <h2>Contact Information</h2>
+      <input class="form-control" type="text" placeholder="First and Last name" pattern="(.*)\s(.*)" required />
+      <input class="form-control" type="email" placeholder="Email" required />
+      <input class="form-control" type="tel" pattern="(.*)\s(.*)" placeholder="Telephone" required />
+      <input class="form-control" type="url" placeholder="URL" required />
+      <h2>Gender</h2>
+      <input type="radio" name="xyz" id="male" /><label for="male">Male</label>
+      <input type="radio" name="xyz" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="xyz" /><label>Others</label>
+
+      <h2>Food Choice</h2>
+      <input type="radio" name="food" />Veg <input type="radio" name="food" />Non veg
+
+      <h2>Courses</h2>
+      <input type="checkbox" /> <label>Course 1</label> <input type="checkbox" /> <label>Course 2</label>
+      <input type="checkbox" /> <label>Course 3</label>
+
+      <h2>Room preference</h2>
+      <input type="number" min="1" max="10" />
+      <input type="range" min="100" max="101" />
+
+      <h2>Direction preferece</h2>
+      <input type="text" list="direction-list" class="form-control" />
+      <datalist id="direction-list">
+        <option value="North"></option>
+        <option value="North 2"></option>
+        <option value="North 3"></option>
+        <option value="North 4"></option>
+        <option value="North 5"></option>
+        <option value="South"></option>
+        <option value="East"></option>
+        <option value="West"></option>
+        <option value="Other"></option>
+      </datalist>
+
+      <input type="color" />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

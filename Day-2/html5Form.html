@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <style>
+      .form-control {
+        margin: 5px 0;
+      }
+      .radio input[type='radio'] {
+        margin-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+      <input  type="text">
+      <input  type="search">
+      <input  type="button">
+        <input  type="checkbox">
+        <input  type="color">
+        <input  type="date">
+        <input  type="datetime-local">
+        <input  type="email">
+        <input  type="file">
+        <input  type="hidden">
+        <input  type="image">
+        <input  type="month">
+        <input  type="number">
+        <input  type="password">
+        <input  type="radio">
+        <input  type="range">
+        <input  type="reset">
+        <input  type="submit">
+        <input  type="tel">
+        <input  type="time">
+        <input  type="url">
+        <input  type="week"> -->
+    <div style="width:60%; margin:0 auto;">
+      <form>
+        <h2>Search</h2>
+        <input class="form-control" type="search" placeholder="Search" />
+        <h2>Contact Information</h2>
+
+        <input class="form-control" type="text" placeholder="First and Last name" pattern="(.*)\s(.*)" required />
+
+        <input class="form-control" type="email" placeholder="Email" required />
+
+        <input class="form-control" type="tel" placeholder="Telephone" required />
+
+        <input class="form-control" type="url" placeholder="URL" required />
+
+        <h2>Gender</h2>
+        <div class="radio">
+          <input type="radio" id="male" name="gender" />
+          <label for="male">Male</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="female" name="gender" />
+          <label for="female">Female</label>
+        </div>
+        <div class="radio">
+          <input type="radio" id="others" name="gender" />
+          <label for="others">others</label>
+        </div>
+
+        <h2>Preference</h2>
+        <input class="form-control" type="number" min="1" max="6" placeholder="No of bedrooms" />
+        <h2>Days to Move</h2>
+        <input class="form-control" type="range" min="10" max="100" value="30" step="10" placeholder="Days range" />
+
+        <h2>Direction preferece</h2>
+        <input type="text" list="direction-list" class="form-control" />
+        <datalist id="direction-list">
+          <option value="North"></option>
+          <option value="South"></option>
+          <option value="East"></option>
+          <option value="West"></option>
+        </datalist>
+        <h2>Color preference</h2>
+        <input type="color" value="#f5e60c" />
+        <h2>Days available</h2>
+        <input type="month" class="form-control" value="2018-06" />
+        <input type="week" class="form-control" value="2018-W28" />
+        <input type="datetime-local" class="form-control" value="2018-06-23T12:06" />
+        <input type="time" class="form-control" value="12:06" />
+        <h2>Set your password</h2>
+        <input type="password" class="form-control" />
+
+        <h2>Upload your pan copy</h2>
+        <input type="file" />
+
+        <hr />
+        <!-- <button type="submit">Submit</button> -->
+        <input class="btn btn-primary" type="button" value="Submit" />
+        <input type="reset" value="Reset" />
+        <!-- <button class="btn btn-secondary" type="reset">Reset</button> -->
+      </form>
+    </div>
+  </body>
+</html>
