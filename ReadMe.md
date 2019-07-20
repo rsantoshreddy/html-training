@@ -1,4 +1,8 @@
 # HTML Training
+# Day 3
+## Task
+![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/task.png)
+
 # Day 2
 Some Html5 new Elements <br>
 Table <br>
