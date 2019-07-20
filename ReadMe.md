@@ -1,13 +1,13 @@
 # HTML Training
 # Day 3
-Cascading meaning 
-Selector 
-Specificity 
-Inheritance 
-Box Model 
-Vertical margins collapse 
-Display and Visibility 
-Positions 
+Cascading meaning <br>
+Selector <br>
+Specificity <br>
+Inheritance <br>
+Box Model <br>
+Vertical margins collapse <br>
+Display and Visibility <br>
+Positions <br>
 
 ## Task
 ![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/task.png)
