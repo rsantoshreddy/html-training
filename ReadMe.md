@@ -71,7 +71,7 @@ Block element and inline element<br>
 ## Task Day 2
 Create below mock using input elements
 
-![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/day2/images/task2.png)
+![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/Docs/day2/images/task2.png)
 
 # Day 1: 
 Introduction <br>
