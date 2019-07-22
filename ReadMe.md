@@ -1,4 +1,10 @@
 # HTML Training
+# Day 4
+## Task
+1. 
+2. Experiment with :empty, :root.
+3. 
+
 # Day 3
 Cascading meaning <br>
 Selector <br>
