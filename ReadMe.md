@@ -1,5 +1,13 @@
 # HTML Training
 # Day 4
+Float and Clear
+::selection
+:not
+[attr^=value]
+[attr$=value]
+[attr*=value]
+LayOut: Table
+
 ## Task
 1. Create tabs in css. 
     a. Create inpage links to particular sections.
