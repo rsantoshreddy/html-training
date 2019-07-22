@@ -1,5 +1,13 @@
 # HTML Training
 # Day 4
+Float and Clear <br>
+::selection <br>
+:not <br>
+[attr^=value] <br>
+[attr$=value] <br>
+[attr*=value] <br>
+LayOut: Table <br>
+
 ## Task
 1. Create tabs in css. 
     a. Create inpage links to particular sections.
@@ -63,7 +71,7 @@ Block element and inline element<br>
 ## Task Day 2
 Create below mock using input elements
 
-![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/day2/images/task2.png)
+![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/Docs/day2/images/task2.png)
 
 # Day 1: 
 Introduction <br>
