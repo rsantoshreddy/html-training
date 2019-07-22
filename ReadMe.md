@@ -30,7 +30,7 @@ Display and Visibility <br>
 Positions <br>
 
 ## Task
-![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/task.png)
+![task3](https://github.com/rsantoshreddy/html-training/blob/master/task.png)
 
 # Day 2
 Some Html5 new Elements <br>
