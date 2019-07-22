@@ -16,7 +16,7 @@ LayOut: Table <br>
 3. Experiment with attribute selection with * e.g. [attr*='classname']
 4. Experiment with nth-of-type, first-of-type, last-of-type, nth-last-of-type, nth-last-child.
 5. Explore Column-span, column-width etc...
-
+6. ![task3](https://github.com/rsantoshreddy/html-training/blob/master/task%201.png)
 
 
 # Day 3
