@@ -1,12 +1,12 @@
 # HTML Training
 # Day 4
-Float and Clear
-::selection
-:not
-[attr^=value]
-[attr$=value]
-[attr*=value]
-LayOut: Table
+Float and Clear <br>
+::selection <br>
+:not <br>
+[attr^=value] <br>
+[attr$=value] <br>
+[attr*=value] <br>
+LayOut: Table <br>
 
 ## Task
 1. Create tabs in css. 
