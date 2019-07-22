@@ -1,0 +1,44 @@
+/* Basic Selections */
+/* p {
+  color: yellow;
+} */
+
+/* .para {
+  color: green;
+}
+
+#chrome {
+  color: red;
+} */
+
+/* Children selctor */
+/* section > p {
+  color: red;
+}
+
+/* Decendant selector  */
+section p {
+    color: red;
+  }
+  
+  * {
+    color: green;
+  }
+  
+  /* Element selector */
+  a {
+    color: #000000;
+  }
+  
+  /* Attribute Selector */
+  a[href='./Day-1/home/home.html'] {
+    color: red;
+  }
+  img[alt='scenario'] {
+    border: 5px solid red;
+  }
+  
+  p:hover {
+    color: red;
+  } */
+  

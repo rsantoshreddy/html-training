@@ -1,0 +1,134 @@
+p {
+  color: red;
+}
+
+p {
+  color: yellow;
+}
+
+/* .first {
+  color: blue;
+}
+
+.second {
+  color: rebeccapurple;
+}
+
+.third {
+  color: green;
+}
+
+.fourth {
+  color: brown;
+}
+.fifth {
+  color: pink;
+} */
+
+/* li:first-child {
+  color: blue;
+}
+li:nth-child(2) {
+  color: rebeccapurple;
+}
+
+li:nth-child(3) {
+  color: green;
+}
+li:nth-child(4) {
+  color: brown;
+}
+li:nth-child(5) {
+  color: pink;
+} */
+
+/* * {
+  color: green;
+} */
+
+/* li:nth-child(2n) {
+  color: red;
+}
+li:nth-child(2n-1) {
+  color: green;
+}
+li:last-child {
+  color: black;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* div {
+    border: 3px solid green;
+  } */
+
+/* p:nth-child(2) {
+    margin: 40px;
+    display: block;
+    visibility: visible;
+  }
+  
+  p {
+    padding: 20px;
+    margin: 20px;
+    border: 20px solid red;
+    display: none;
+    visibility: hidden;
+  } */
+
+/* static
+  absolute
+  relative
+  fixed */
+
+/* p {
+    margin: 5px;
+    background: RED;
+  }
+  
+  div {
+    background: green;
+    position: fixed;
+  } */
+
+h1 {
+  /* text-shadow: horizontal vertical blur color; */
+  text-shadow: 2px 2px 2px #555;
+}
+
+p:not(.second) {
+  color: green;
+}
+/* p {
+    display: none;
+  } */
+:target {
+  display: block;
+}
+p::selection {
+  background-color: red;
+  color: #fff;
+}
+
+/* ul.column {
+    column-count: 3;
+  } */
+ul.column {
+  display: table;
+  border-collapse: collapse;
+}
+ul.column > li {
+  display: table-row;
+}
+ul.column > li > p {
+  display: table-cell;
+  border: 1px solid red;
+}
+
+ul > li {
+  display: box;
+}

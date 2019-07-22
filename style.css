@@ -1,0 +1,48 @@
+.first::selection {
+  background-color: red;
+  color: #fff;
+}
+/* p:not(.second) {
+  color: blue;
+} */
+
+:target {
+  background-color: chartreuse;
+  color: #fff;
+}
+a {
+  font-size: 60px;
+}
+a[title$='y'] {
+  color: red;
+}
+
+/* 
+^: start 
+$: End
+*: anything
+*/
+
+.table {
+  display: table;
+  border-collapse: collapse;
+}
+.row {
+  display: table-row;
+}
+.row > p {
+  display: table-cell;
+  border: 1px solid #000;
+}
+
+.navlinks {
+  column-count: 4;
+  column-gap: 1px;
+  column-rule: 1px solid red;
+  list-style: none;
+  column
+}
+.navlinks > li {
+  background-color: aqua;
+  text-align: center;
+}
