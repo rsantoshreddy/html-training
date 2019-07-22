@@ -1,9 +1,14 @@
 # HTML Training
 # Day 4
 ## Task
-1. 
+1. Create tabs in css. 
+    a. Create inpage links to particular sections.
+    b. on click of each link show respective content.
 2. Experiment with :empty, :root.
-3. 
+3. Experiment with attribute selection with * e.g. [attr*='classname']
+4. Experiment with nth-of-type, first-of-type, last-of-type, nth-last-of-type, nth-last-child.
+5. 
+
 
 # Day 3
 Cascading meaning <br>
