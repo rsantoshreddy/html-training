@@ -1,4 +1,10 @@
 # HTML Training
+# Day 5
+1. Experiment: 
+flex-order: 1;
+align-self: flex-end;
+flex-wrap: wrap/wrap-reverse/no-wrap;
+
 # Day 4
 Float and Clear <br>
 ::selection <br>
