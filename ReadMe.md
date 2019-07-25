@@ -1,4 +1,36 @@
 # HTML Training
+# Day 6
+### Borders 
+Resizable 
+`resize: both; 
+overflow: auto; `
+Rounded Corner 
+`border-radius `
+
+### Shadowing 
+#### Text Shadowing 
+text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; 
+
+#### Box shadowing 
+box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; 
+
+### Transform 
+Rotate
+Skew
+Scale
+Translate  
+
+### Animations 
+@keyframes 
+animation-name 
+animation-duration 
+animation-delay 
+animation-iteration-count 
+animation-direction 
+animation-timing-function 
+animation-fill-mode
+animation
+
 # Day 5
 1. Experiment: 
 flex-order: 1;
