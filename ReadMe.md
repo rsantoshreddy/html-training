@@ -1,4 +1,42 @@
 # HTML Training
+# Day 6
+### Borders 
+Resizable 
+`resize: both; 
+overflow: auto; `
+Rounded Corner 
+`border-radius `
+
+### Shadowing 
+#### Text Shadowing 
+text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; 
+
+#### Box shadowing 
+box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; 
+
+### Transform 
+Rotate
+Skew
+Scale
+Translate  
+
+### Animations 
+@keyframes 
+animation-name 
+animation-duration 
+animation-delay 
+animation-iteration-count 
+animation-direction 
+animation-timing-function 
+animation-fill-mode
+animation
+
+# Day 5
+1. Experiment: 
+flex-order: 1;
+align-self: flex-end;
+flex-wrap: wrap/wrap-reverse/no-wrap;
+
 # Day 4
 Float and Clear <br>
 ::selection <br>
@@ -16,7 +54,7 @@ LayOut: Table <br>
 3. Experiment with attribute selection with * e.g. [attr*='classname']
 4. Experiment with nth-of-type, first-of-type, last-of-type, nth-last-of-type, nth-last-child.
 5. Explore Column-span, column-width etc...
-
+6. ![task3](https://github.com/rsantoshreddy/html-training/blob/master/task%201.png)
 
 
 # Day 3
@@ -30,7 +68,7 @@ Display and Visibility <br>
 Positions <br>
 
 ## Task
-![nonStyleComponentBuild](https://github.com/rsantoshreddy/html-training/blob/master/task.png)
+![task3](https://github.com/rsantoshreddy/html-training/blob/master/task.png)
 
 # Day 2
 Some Html5 new Elements <br>
