@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Css Advanced</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      div {
+        /* resize: both;
+        overflow: auto; */
+      }
+      /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; */
+      /* text-shadow: 2px 2px #00ff00; */
+      /* box-shadow: none|h-offset v-offset blur shadow-size color |inset|initial|inherit;  */
+      /* box-shadow: 0 0 11px 20px #00ff00;
+        width: 50%;
+        margin: 39px auto 40px auto; */
+      /* Rotate Skew  Scale Translate  */
+      /* width: 50%;
+        border: 1px solid purple;
+        transform: translate(50px, 50px); */
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      @keyframes devikanth {
+        /* from {
+          left: 0;
+        }
+        to {
+          left: 100%;
+        } */
+        0% {
+          left: 0%;
+          top: 0px;
+          color: red;
+        }
+        20% {
+          color: purple;
+          top: 50px;
+        }
+        40% {
+          color: green;
+          top: -50px;
+        }
+        60% {
+          color: green;
+          top: 50px;
+        }
+        80% {
+          color: green;
+          top: -50px;
+        }
+        100% {
+          left: 100%;
+          color: red;
+          top: 0px;
+        }
+      }
+      h1 {
+        position: relative;
+        animation-name: devikanth;
+        animation-duration: 5s;
+        animation-delay: 5s;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Some</h1>
+      <!-- <marquee>Some text</marquee> -->
+      <div data-date="2019-08-03">Hi</div>
+    </div>
+  </body>
+</html>

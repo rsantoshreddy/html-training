@@ -132,3 +132,35 @@ ul.column > li > p {
 ul > li {
   display: box;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+li {
+  padding: 10px;
+  min-height: 100px;
+}
+li:nth-child(3n) {
+  background-color: #febb71;
+}
+li:nth-child(3n-1) {
+  background-color: #fed4dd;
+}
+li:nth-child(3n-2) {
+  background-color: #feedd9;
+}
+ul.flex-container {
+  display: flex;
+}
+ul.flex-container > li {
+  flex-grow: 1;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Flex Box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      /*
+            display: flex;
+            flex-direction: row/row-reverse/column/column-reverse;
+            flex-wrap: wrap/wrap-reverse/no-wrap;
+            justify-content: flex-start/flex-end/center/space-aroud/space-between;
+            align-items: flex-start/flex-end/center/stretch/baseline;
+
+            flex-grow:1;
+            flex-order: 1;
+            align-self: flex-end;
+
+        */
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: red;
+      }
+      ul > li {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding: 10px;
+        width: 100px;
+      }
+      ul > li:nth-child(3n) {
+        background-color: #fdbc6f;
+      }
+      ul > li:nth-child(3n-1) {
+        background-color: #fdd6a4;
+      }
+      ul > li:nth-child(3n-2) {
+        background-color: #ffddd3;
+        /* background-color: #550000; */
+
+        /* R:Red; G:Green B: Blue */
+        /* #ff ff ff */
+        /* #00 00 00 */
+
+        /*
+        0
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        a
+        b
+        c
+        d
+        e
+        f
+        */
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+      }
+      /* .flex-container > li {
+        flex-grow: 1;
+      } */
+      /* .flex-container > li:nth-child(2) {
+      }
+      .flex-container > li:nth-child(3) {
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="flex-container">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+      </ul>
+    </div>
+  </body>
+</html>
